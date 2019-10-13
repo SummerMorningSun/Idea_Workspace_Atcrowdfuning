@@ -1,0 +1,8 @@
+server:
+  servlet:
+    context-path: /hellospringboot
+
+spring:
+  thymeleaf:
+    prefix: /templates/
+    suffix: .html

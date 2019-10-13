@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>atcrowdfuning-parent</artifactId>
+        <groupId>com.atguigu.atcrowdfuning</groupId>
+        <version>1.0-SNAPSHOT</version>
+        <relativePath>../atcrowdfuning-parent/pom.xml</relativePath>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <description>众筹接口：业务层和持久化层的接口（所有接口）</description>
+    <artifactId>atcrowdfuning-manager-api</artifactId>
+    <packaging>jar</packaging>
+
+    <dependencies>
+        <!-- 依赖bean模块 -->
+        <dependency>
+            <groupId>com.atguigu.atcrowdfuning</groupId>
+            <artifactId>atcrowdfuning-bean</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+
+        <!-- 引入mybatis -->
+        <dependency>
+            <groupId>org.mybatis</groupId>
+            <artifactId>mybatis</artifactId>
+        </dependency>
+    </dependencies>
+
+</project>
